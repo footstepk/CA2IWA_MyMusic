@@ -1,0 +1,48 @@
+<!-- This page is showing about the single page of my musician collection -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>My Musician Collection - About My Musician Collection Page</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/404-NOT-FOUND-animated.css">
+    <link rel="stylesheet" href="assets/css/Footer-Dark.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Phone.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Button.css">
+    <link rel="stylesheet" href="assets/css/todo_style.css">
+    <link rel="stylesheet" href="assets/css/scroll_up.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/darkmode.css">
+</head>
+
+<body>
+    <%- include("documentation.ejs") %>
+    <input class="form-control" id="csrf" type="hidden" name="_csrf" value="<%= csrfToken %>" />
+    <a class="btn btn-primary" id="back-to-top" type="button"><i class="fa fa-arrow-up"></i></a>
+    <div class="container">
+        <div class="mx-auto" style="margin-top: 30px;max-width: 900px;min-height: 250px;">
+
+<h2>About The Musician Collection</h2>
+<br>
+<br>
+
+            <p class="browsehappy">The musician collection  illustrated a single page which have input fields to allow user
+to add, delete, edit/update and view the data that being entered and store in the mongodb database management.</p>
+<br>
+   
+            <section class="doc-section">
+                <ul>
+<li>ADD new musician - add a new entry into the database.</li>
+<li>Delete selected musician - delete / remove the current selected item from database.</li>
+<li>Update selected musician - edit / update current selected item from database and save it when process is finished.</li>
+<li>View list of musician - display a list of current musician details are being added into the database on table's view.</li>
+</ul>
+            </section>
+</div>
+</body>
+</html>

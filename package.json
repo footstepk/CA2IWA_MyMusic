@@ -1,0 +1,38 @@
+{
+  "name": "CA2IWA_MyMusic",
+  "version": "1.0.0",
+  "description": "A single page use of JavaScript, Express Module and MongoDB",
+  "main": "app.js",
+  "dependencies": {
+    "add": "^2.0.6",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "del": "^5.1.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "mongoose": "^5.9.10",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.3",
+    "path": "^0.12.7",
+    "yarn": "^1.22.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wkjess/CA2IWA_MyMusic.git"
+  },
+  "author": "Kim Jang Wong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wkjess/CA2IWA_MyMusic/issues"
+  },
+  "homepage": "https://github.com/wkjess/CA2IWA_MyMusic#readme"
+}
